@@ -1,0 +1,15 @@
+name: PrisonsPickLock
+version: '${project.version}'
+main: co.shanedev.prisonspicklock.PrisonsPickLock
+api-version: 1.13
+authors: [ShaneDev]
+description: Pickaxe locking plugin
+website: shanedev.co
+commands:
+  pplreload:
+    description: Reloads the config.yml
+    usage: /<command>
+  ppl:
+    description: Shows plugin info in-game.
+    usage: /<command>
+    aliases: [prisonspicklock, prisonpicklock, picklock, prisonspickaxelock, prisonpickaxelock]
